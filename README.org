@@ -28,7 +28,7 @@
   - Correctness and testing.
   - A word on algorithmic *frameworks* / "types" of algorithms: greedy, D&C, randomized, brute-force, DP, ...
 
-📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] 
+📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(nbviewer)]]
 
 ** Topic 2: How to measure runtime properly? Asymptotics.
   - Merge sort
