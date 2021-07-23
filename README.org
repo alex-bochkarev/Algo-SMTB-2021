@@ -17,7 +17,7 @@
 
 * Course outline
 
-** 👉 Topic 1: Algorithms (of course, sorting example)
+** Topic 1: Algorithms (of course, sorting example)
   - What is an algorithm (vs. a computer program).
   - Key properties: correctness, time, and space requirements (without details)
   - Several examples of sorting algorithms:
@@ -30,7 +30,7 @@
 
 📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(nbviewer)]]
 
-** Topic 2: How to measure runtime properly? Asymptotics.
+** 👉 Topic 2: How to measure runtime properly? Asymptotics.
   - Merge sort
   - Comparison of runtimes for different algorithms (random tests)
   - Problems: (1) scaling, and (2) special inputs. So:
