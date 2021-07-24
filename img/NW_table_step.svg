@@ -26,17 +26,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="290.19744"
-     inkscape:cy="596.87167"
+     inkscape:zoom="0.58592205"
+     inkscape:cx="544.23568"
+     inkscape:cy="342.84775"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="757"
-     inkscape:window-height="919"
-     inkscape:window-x="1157"
-     inkscape:window-y="158"
+     inkscape:window-width="1366"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -836,7 +836,7 @@
          id="tspan1191"
          x="251.76819"
          y="111.28532"
-         style="font-weight:bold;fill:#ff0000;fill-opacity:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">G</tspan></text>
+         style="font-weight:normal;fill:#000000;fill-opacity:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none">G</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -902,7 +902,7 @@
          id="tspan1215"
          x="207.40575"
          y="168.07855"
-         style="stroke-width:0.264583">C</tspan></text>
+         style="fill:#ff0000;fill-opacity:1;stroke-width:0.264583;font-weight:bold">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -1167,7 +1167,7 @@
          id="tspan1337"
          x="395.25714"
          y="37.953541"
-         style="stroke-width:0.264583">G</tspan></text>
+         style="font-weight:bold;fill:#ff0000;fill-opacity:1;stroke-width:0.264583">G</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -1233,7 +1233,7 @@
          id="tspan1361"
          x="350.89468"
          y="94.746773"
-         style="font-weight:bold;fill:#ff0000;fill-opacity:1;stroke-width:0.264583">C</tspan></text>
+         style="font-weight:normal;fill:#000000;fill-opacity:1;stroke-width:0.264583">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -1542,12 +1542,12 @@
          x="249.1998"
          y="36.870079"><tspan
            style="font-style:italic;font-weight:normal;stroke-width:0.264583">Align </tspan><tspan
-           style="font-weight:bold;fill:#ff0000">G</tspan><tspan
+           style="font-weight:bold;fill:#ff0000;fill-opacity:1">C</tspan><tspan
            style="font-style:italic;font-weight:normal;stroke-width:0.264583"> and </tspan><tspan
            style="font-weight:bold;fill:#ff0000">new (-)</tspan><tspan
            style="font-style:italic;font-weight:normal;stroke-width:0.264583"> + </tspan><tspan
            style="font-weight:bold;fill:#000080">M</tspan><tspan
-           style="font-style:italic;font-weight:bold;font-size:65%;baseline-shift:sub;fill:#000080">12</tspan></tspan></text>
+           style="font-style:italic;font-weight:bold;font-size:65%;baseline-shift:sub;fill:#000080">22</tspan></tspan></text>
     <text
        xml:space="preserve"
        x="91.246109"
@@ -1612,10 +1612,10 @@
            style="font-style:italic;font-weight:normal;stroke-width:0.264583">Align </tspan><tspan
            style="font-weight:bold;fill:#ff0000;fill-opacity:1">new (-)</tspan><tspan
            style="font-style:italic;font-weight:normal;stroke-width:0.264583"> and </tspan><tspan
-           style="font-weight:bold;fill:#ff0000;fill-opacity:1">C</tspan><tspan
+           style="font-weight:bold;fill:#ff0000;fill-opacity:1">G</tspan><tspan
            style="font-style:italic;font-weight:normal;stroke-width:0.264583"> + </tspan><tspan
            style="font-weight:bold;fill:#000080">M</tspan><tspan
-           style="font-style:italic;font-weight:bold;font-size:65%;baseline-shift:sub;fill:#000080">12</tspan></tspan></text>
+           style="font-style:italic;font-weight:bold;font-size:65%;baseline-shift:sub;fill:#000080">13</tspan></tspan></text>
     <text
        xml:space="preserve"
        x="157.25087"
