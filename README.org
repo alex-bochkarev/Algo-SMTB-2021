@@ -30,7 +30,7 @@
 
 📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(nbviewer)]]
 
-** 👉 Topic 2: How to measure runtime properly? Asymptotics.
+** Topic 2: How to measure runtime properly? Asymptotics.
   - Merge sort
   - Comparison of runtimes for different algorithms (random tests)
   - Problems: (1) scaling, and (2) special inputs. So:
@@ -40,14 +40,14 @@
 
 📔 *Notebook:* (same as the previous one)
 
-** Topic 3: Dynamic Programming and Needleman–Wunsch algo
+** 👉 Topic 3: Dynamic Programming and Needleman–Wunsch algo
   - Coins/change problem (having N types of coins, how to make C cents?). Ideas:
     + greedy algorithm (not always optimal, though)
     + exhaustive search (slow)
     + DP -- the magic :)
   - The big topic: Sequence alignments --- Needleman–Wunsch algorithm.
 
-📔 *Notebook:* [[./T3-DP-and-Needleman-Wunsch.ipynb][(ipynb)]] 
+📔 *Notebook:* [[./T3-DP-and-Needleman-Wunsch.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb][(nbviewer)]]
 
 ** Topic 4: Data structures and conclusion
   - DS: abstract descriptions of data types (think: API+key parameters)
