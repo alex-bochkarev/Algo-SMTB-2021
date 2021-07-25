@@ -83,8 +83,8 @@ Topic 1: Algorithms (of course, sorting example)
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb>
 
 
-👉 Topic 2: How to measure runtime properly? Asymptotics.
-─────────────────────────────────────────────────────────
+Topic 2: How to measure runtime properly? Asymptotics.
+──────────────────────────────────────────────────────
 
   • Merge sort
   • Comparison of runtimes for different algorithms (random tests)
@@ -96,8 +96,8 @@ Topic 1: Algorithms (of course, sorting example)
   📔 *Notebook:* (same as the previous one)
 
 
-Topic 3: Dynamic Programming and Needleman–Wunsch algo
-──────────────────────────────────────────────────────
+👉 Topic 3: Dynamic Programming and Needleman–Wunsch algo
+─────────────────────────────────────────────────────────
 
   • Coins/change problem (having N types of coins, how to make C
     cents?). Ideas:
@@ -106,10 +106,13 @@ Topic 3: Dynamic Programming and Needleman–Wunsch algo
     ⁃ DP – the magic :)
   • The big topic: Sequence alignments — Needleman–Wunsch algorithm.
 
-  📔 *Notebook:* [(ipynb)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)]
 
 
 [(ipynb)] <./T3-DP-and-Needleman-Wunsch.ipynb>
+
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb>
 
 
 Topic 4: Data structures and conclusion
