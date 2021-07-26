@@ -2,6 +2,10 @@
 #+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
 #+OPTIONS: toc:nil num:nil
 
+**Status:**
+- _Russian_ track is over (comments / questions / feedback are still very welcome!)
+- _English_ track is starting 2021-07-28
+
 * [ ∑ ] Summary
      *Course point:* To discuss some very basic theoretical concepts from Computer Science, heavily relying on numerical illustrations in Python. We will discuss what does it mean if someone says the problem is "hard" ("NP-hard"? What's the difference?), what are algorithms, data structures, and what kind of their properties we might be interested in. E.g., whether an algorithm is doing the right thing (and how to check it), how fast it runs (how to measure it and "what is this O(·) I keep seeing in the papers, exactly?"), and so on. Finally: how useful it all is for you if you are not a computer scientist, and only write the code from time to time, or even mostly using existing programs? (A spoiler: might be very useful!) However, we will *not* be learning to write computer programs technically. The main purpose is to find a sweet spot between theory and practice to equip the interested student with key ideas relevant to a practice of (thoughtful) programming, and, perhaps, inspire to take a university course in CS. 
 
@@ -17,7 +21,7 @@
 
 * Course outline
 
-** Topic 1: Algorithms (of course, sorting example)
+** 👉 Topic 1: Algorithms (of course, sorting example)
   - What is an algorithm (vs. a computer program).
   - Key properties: correctness, time, and space requirements (without details)
   - Several examples of sorting algorithms:
@@ -40,7 +44,7 @@
 
 📔 *Notebook:* (same as the previous one)
 
-** 👉 Topic 3: Dynamic Programming and Needleman–Wunsch algo
+** Topic 3: Dynamic Programming and Needleman–Wunsch algo
   - Coins/change problem (having N types of coins, how to make C cents?). Ideas:
     + greedy algorithm (not always optimal, though)
     + exhaustive search (slow)
@@ -55,7 +59,8 @@
   - A concept of amortized runtime
   - further reading (useful books / courses)
 
-📔 *Notebook:* [[./T4-DataStructures.ipynb][(ipynb)]] 
+📔 *Notebook:* [[./T4-DataStructures.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(nbviewer)]] 
+
 
 * Further reading / learning
 This is the most important part of the course 😃.
@@ -74,7 +79,10 @@ There are some more classic CS textbooks, which I would **not** recommend as an 
 
 Finally, there is **the ultimate thing:** "The Art of Computer Programming", aka TAOCP. It is very dense and very "mathy" (and uses a hypothetical [[https://en.wikipedia.org/wiki/Assembly_language][assembly language]]!), but covers *a lot*, as detailed as it gets. If you don't know how to solve some algorithmic problem, chances are TAOCP discusses it, comprises it as an exercise, or at the very least provides some inspiration. (Also, try googling "is TAOCP worth reading" or check an [[https://news.ycombinator.com/item?id=10897460][HN question]] :) )
 
-** 🎓 Online courses
+Following up the discussion we had on global alignments, I've heard good things about this book:
+ + [[https://www.cambridge.org/core/books/biological-sequence-analysis/921BB7B78B745198829EF96BC7E0F29D]["Biological sequence analysis"]] by Durbin, Eddy, Krogh, and Mitchison.
+   
+** 🎓 Online courses and other resources
 If you feel the need to practice, there are some good online courses out there. For example, Coursera:
   + [[https://www.coursera.org/learn/analysis-of-algorithms][Analysis of Algorithms]] from Princeton (by Dr. Sedgewick) -- some practice in Java.
   + [[https://www.coursera.org/specializations/algorithms][Algorithms specialization]] from Stanford -- this one might be math-heavy and more on the theoretical side.
@@ -82,3 +90,7 @@ If you feel the need to practice, there are some good online courses out there. 
   + might be a good idea to start one, go through the intro (but not necessarily finish).
 
 If you feel like watching some videos, or would like to check out a specific thing, I might recommend the MiT OCW  [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/][6.006 Intro to Algorithms]] course.
+
+Finally, a couple of less relevant links, perhaps:
+- It is more about Data Science, but you know about [[https://www.kaggle.com/][Kaggle]], right?
+- There are also some specialized services focused around solving algo problems (mostly in the context of job interviews for programmers) -- e.g., [[https://leetcode.com/][LeetCode]] or [[https://www.hackerrank.com/][HackerRank]].

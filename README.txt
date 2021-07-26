@@ -5,7 +5,10 @@
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-
+**Status:**
+• _Russian_ track is over (comments / questions / feedback are still
+  very welcome!)
+• _English_ track is starting 2021-07-28
 
 
 [ ∑ ] Summary
@@ -59,8 +62,8 @@
 Course outline
 ══════════════
 
-Topic 1: Algorithms (of course, sorting example)
-────────────────────────────────────────────────
+👉 Topic 1: Algorithms (of course, sorting example)
+───────────────────────────────────────────────────
 
   • What is an algorithm (vs. a computer program).
   • Key properties: correctness, time, and space requirements (without
@@ -96,8 +99,8 @@ Topic 2: How to measure runtime properly? Asymptotics.
   📔 *Notebook:* (same as the previous one)
 
 
-👉 Topic 3: Dynamic Programming and Needleman–Wunsch algo
-─────────────────────────────────────────────────────────
+Topic 3: Dynamic Programming and Needleman–Wunsch algo
+──────────────────────────────────────────────────────
 
   • Coins/change problem (having N types of coins, how to make C
     cents?). Ideas:
@@ -123,10 +126,13 @@ Topic 4: Data structures and conclusion
   • A concept of amortized runtime
   • further reading (useful books / courses)
 
-  📔 *Notebook:* [(ipynb)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)]
 
 
 [(ipynb)] <./T4-DataStructures.ipynb>
+
+[(nbviewer)]
+<https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb>
 
 
 Further reading / learning
@@ -170,14 +176,22 @@ Further reading / learning
   very least provides some inspiration. (Also, try googling "is TAOCP
   worth reading" or check an [HN question] :) )
 
+  Following up the discussion we had on global alignments, I've heard
+  good things about this book:
+  ⁃ ["Biological sequence analysis"] by Durbin, Eddy, Krogh, and
+    Mitchison.
+
 
 [assembly language] <https://en.wikipedia.org/wiki/Assembly_language>
 
 [HN question] <https://news.ycombinator.com/item?id=10897460>
 
+["Biological sequence analysis"]
+<https://www.cambridge.org/core/books/biological-sequence-analysis/921BB7B78B745198829EF96BC7E0F29D>
 
-🎓 Online courses
-─────────────────
+
+🎓 Online courses and other resources
+─────────────────────────────────────
 
   If you feel the need to practice, there are some good online courses
   out there. For example, Coursera:
@@ -194,6 +208,12 @@ Further reading / learning
   specific thing, I might recommend the MiT OCW [6.006 Intro to
   Algorithms] course.
 
+  Finally, a couple of less relevant links, perhaps:
+  • It is more about Data Science, but you know about [Kaggle], right?
+  • There are also some specialized services focused around solving algo
+    problems (mostly in the context of job interviews for programmers) –
+    e.g., [LeetCode] or [HackerRank].
+
 
 [Analysis of Algorithms]
 <https://www.coursera.org/learn/analysis-of-algorithms>
@@ -203,3 +223,9 @@ Further reading / learning
 
 [6.006 Intro to Algorithms]
 <https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/>
+
+[Kaggle] <https://www.kaggle.com/>
+
+[LeetCode] <https://leetcode.com/>
+
+[HackerRank] <https://www.hackerrank.com/>
