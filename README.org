@@ -2,7 +2,7 @@
 #+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
 #+OPTIONS: toc:nil num:nil
 
-**Status:**
+*Status:*
 - _Russian_ track is over (comments / questions / feedback are still very welcome!)
 - _English_ track is starting 2021-07-28
 
@@ -32,7 +32,7 @@
   - Correctness and testing.
   - A word on algorithmic *frameworks* / "types" of algorithms: greedy, D&C, randomized, brute-force, DP, ...
 
-📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(nbviewer)]]
+📔 *Notebook:* [[./T1-2-Algorithms.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(nbviewer)]] [[https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb][(colab)]]
 
 ** Topic 2: How to measure runtime properly? Asymptotics.
   - Merge sort
@@ -51,7 +51,7 @@
     + DP -- the magic :)
   - The big topic: Sequence alignments --- Needleman–Wunsch algorithm.
 
-📔 *Notebook:* [[./T3-DP-and-Needleman-Wunsch.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb][(nbviewer)]]
+📔 *Notebook:* [[./T3-DP-and-Needleman-Wunsch.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb][(nbviewer)]] [[https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb][(colab)]]  
 
 ** Topic 4: Data structures and conclusion
   - DS: abstract descriptions of data types (think: API+key parameters)
@@ -59,7 +59,7 @@
   - A concept of amortized runtime
   - further reading (useful books / courses)
 
-📔 *Notebook:* [[./T4-DataStructures.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(nbviewer)]] 
+📔 *Notebook:* [[./T4-DataStructures.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(nbviewer)]] [[https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(colab)]] 
 
 
 * Further reading / learning

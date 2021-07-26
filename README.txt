@@ -5,7 +5,7 @@
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-**Status:**
+*Status:*
 • _Russian_ track is over (comments / questions / feedback are still
   very welcome!)
 • _English_ track is starting 2021-07-28
@@ -77,13 +77,16 @@ Course outline
   • A word on algorithmic *frameworks* / "types" of algorithms: greedy,
     D&C, randomized, brute-force, DP, …
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./T1-2-Algorithms.ipynb>
 
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T1-2-Algorithms.ipynb>
 
 
 Topic 2: How to measure runtime properly? Asymptotics.
@@ -109,13 +112,16 @@ Topic 3: Dynamic Programming and Needleman–Wunsch algo
     ⁃ DP – the magic :)
   • The big topic: Sequence alignments — Needleman–Wunsch algorithm.
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./T3-DP-and-Needleman-Wunsch.ipynb>
 
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T3-DP-and-Needleman-Wunsch.ipynb>
 
 
 Topic 4: Data structures and conclusion
@@ -126,13 +132,16 @@ Topic 4: Data structures and conclusion
   • A concept of amortized runtime
   • further reading (useful books / courses)
 
-  📔 *Notebook:* [(ipynb)] [(nbviewer)]
+  📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
 
 [(ipynb)] <./T4-DataStructures.ipynb>
 
 [(nbviewer)]
 <https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb>
+
+[(colab)]
+<https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb>
 
 
 Further reading / learning
