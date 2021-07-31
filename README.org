@@ -2,9 +2,7 @@
 #+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
 #+OPTIONS: toc:nil num:nil
 
-*Status:*
-- _Russian_ track is over (comments / questions / feedback are still very welcome!)
-- _English_ track is starting 2021-07-28
+*Status:* both English and Russian tracks are over. Comments, questions, suggestions, and any feedback are *very* welcome! Feel free to drop me an email any time (Discord would also work during the School).
 
 * [ ∑ ] Summary
      *Course point:* To discuss some very basic theoretical concepts from Computer Science, heavily relying on numerical illustrations in Python. We will discuss what does it mean if someone says the problem is "hard" ("NP-hard"? What's the difference?), what are algorithms, data structures, and what kind of their properties we might be interested in. E.g., whether an algorithm is doing the right thing (and how to check it), how fast it runs (how to measure it and "what is this O(·) I keep seeing in the papers, exactly?"), and so on. Finally: how useful it all is for you if you are not a computer scientist, and only write the code from time to time, or even mostly using existing programs? (A spoiler: might be very useful!) However, we will *not* be learning to write computer programs technically. The main purpose is to find a sweet spot between theory and practice to equip the interested student with key ideas relevant to a practice of (thoughtful) programming, and, perhaps, inspire to take a university course in CS. 
@@ -17,11 +15,13 @@
 
      *Tech needed:* having a working python (preferably =python3=) installation locally along with Jupyter Notebook might help. However, you will be OK using [[https://colab.research.google.com][Google Colab]] (in which case you will need just a web browser and a free Google account).
 
-     This repository will be updated with the current materials as the course unfolds, so come back to check it out! Tentative course outline is as follows. 
+     *A technical note.* Since people were asking: the slides were made from [[https://jupyter.org/][notebooks]] with [[https://rise.readthedocs.io/en/stable/][RISE]] extension (which produces [[https://revealjs.com/][Reveal.js]]-based presentations).
+     
+     Tentative course outline is as follows. 
 
 * Course outline
 
-** 👉 Topic 1: Algorithms (of course, sorting example)
+** Topic 1: Algorithms (of course, sorting example)
   - What is an algorithm (vs. a computer program).
   - Key properties: correctness, time, and space requirements (without details)
   - Several examples of sorting algorithms:
@@ -56,11 +56,8 @@
 ** Topic 4: Data structures and conclusion
   - DS: abstract descriptions of data types (think: API+key parameters)
   - Example: array vs. linked list and appending an element.
-  - A concept of amortized runtime
-  - further reading (useful books / courses)
 
 📔 *Notebook:* [[./T4-DataStructures.ipynb][(ipynb)]] [[https://nbviewer.jupyter.org/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(nbviewer)]] [[https://colab.research.google.com/github/alex-bochkarev/Algo-SMTB-2021/blob/main/T4-DataStructures.ipynb][(colab)]] 
-
 
 * Further reading / learning
 This is the most important part of the course 😃.
@@ -77,7 +74,7 @@ There are some good "light" introductory textbooks:
   + Kleinberg and Tardos, "Algorithm Design"
 There are some more classic CS textbooks, which I would **not** recommend as an intro (you can google yourself as needed -- e.g., CLRS or Sedgewick's "Algorithms" books). That would be a little too dense for starters.
 
-Finally, there is **the ultimate thing:** "The Art of Computer Programming", aka TAOCP. It is very dense and very "mathy" (and uses a hypothetical [[https://en.wikipedia.org/wiki/Assembly_language][assembly language]]!), but covers *a lot*, as detailed as it gets. If you don't know how to solve some algorithmic problem, chances are TAOCP discusses it, comprises it as an exercise, or at the very least provides some inspiration. (Also, try googling "is TAOCP worth reading" or check an [[https://news.ycombinator.com/item?id=10897460][HN question]] :) )
+Finally, there is **the ultimate thing:** "The Art of Computer Programming", aka TAOCP. It is very dense and very "mathy" (and uses a hypothetical [[https://en.wikipedia.org/wiki/Assembly_language][assembly language]]!), but covers *a lot*, as detailed as it gets. If you don't know how to solve some algorithmic problem, chances are TAOCP discusses it, comprises it as an exercise, or at the very least provides some inspiration. (Also, try googling "is TAOCP worth reading" or check an [[https://news.ycombinator.com/item?id=10897460][HN question]] :) ) Again: this is a very good book, but I do *not* recommend it as the first introduction.
 
 Following up the discussion we had on global alignments, I've heard good things about this book:
  + [[https://www.cambridge.org/core/books/biological-sequence-analysis/921BB7B78B745198829EF96BC7E0F29D]["Biological sequence analysis"]] by Durbin, Eddy, Krogh, and Mitchison.
@@ -94,3 +91,7 @@ If you feel like watching some videos, or would like to check out a specific thi
 Finally, a couple of less relevant links, perhaps:
 - It is more about Data Science, but you know about [[https://www.kaggle.com/][Kaggle]], right?
 - There are also some specialized services focused around solving algo problems (mostly in the context of job interviews for programmers) -- e.g., [[https://leetcode.com/][LeetCode]] or [[https://www.hackerrank.com/][HackerRank]].
+
+  
+* Acknowledgments
+  Thanks to Dr. Brian Dean for a book recommendation and a wonderful example of effective teaching. I am also very grateful to the awesome students of the Russian and English tracks at [[https://molbioschool.org/en/][SMTB]]-2021 for helping to shape the course (Good luck with your studies!), and to the organizers for making such a wonderful event happen. 

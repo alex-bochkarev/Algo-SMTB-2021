@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-27 Tue 21:18 -->
+<!-- 2021-07-31 Sat 12:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>SMTB-2021 course: A Glimpse into Algorithms</title>
@@ -220,16 +220,12 @@
 <div id="content">
 <h1 class="title">SMTB-2021 course: A Glimpse into Algorithms</h1>
 <p>
-<b>Status:</b>
+<b>Status:</b> both English and Russian tracks are over. Comments, questions, suggestions, and any feedback are <b>very</b> welcome! Feel free to drop me an email any time (Discord would also work during the School).
 </p>
-<ul class="org-ul">
-<li><span class="underline">Russian</span> track is over (comments / questions / feedback are still very welcome!)</li>
-<li><span class="underline">English</span> track is starting 2021-07-28</li>
-</ul>
 
-<div id="outline-container-org1a61456" class="outline-2">
-<h2 id="org1a61456">[ ∑ ] Summary</h2>
-<div class="outline-text-2" id="text-org1a61456">
+<div id="outline-container-org5ecd614" class="outline-2">
+<h2 id="org5ecd614">[ ∑ ] Summary</h2>
+<div class="outline-text-2" id="text-org5ecd614">
 <p>
 <b>Course point:</b> To discuss some very basic theoretical concepts from Computer Science, heavily relying on numerical illustrations in Python. We will discuss what does it mean if someone says the problem is "hard" ("NP-hard"? What's the difference?), what are algorithms, data structures, and what kind of their properties we might be interested in. E.g., whether an algorithm is doing the right thing (and how to check it), how fast it runs (how to measure it and "what is this O(·) I keep seeing in the papers, exactly?"), and so on. Finally: how useful it all is for you if you are not a computer scientist, and only write the code from time to time, or even mostly using existing programs? (A spoiler: might be very useful!) However, we will <b>not</b> be learning to write computer programs technically. The main purpose is to find a sweet spot between theory and practice to equip the interested student with key ideas relevant to a practice of (thoughtful) programming, and, perhaps, inspire to take a university course in CS. 
 </p>
@@ -251,18 +247,22 @@
 </p>
 
 <p>
-This repository will be updated with the current materials as the course unfolds, so come back to check it out! Tentative course outline is as follows. 
+<b>A technical note.</b> Since people were asking: the slides were made from <a href="https://jupyter.org/">notebooks</a> with <a href="https://rise.readthedocs.io/en/stable/">RISE</a> extension (which produces <a href="https://revealjs.com/">Reveal.js</a>-based presentations).
+</p>
+
+<p>
+Tentative course outline is as follows. 
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgd1dd8b4" class="outline-2">
-<h2 id="orgd1dd8b4">Course outline</h2>
-<div class="outline-text-2" id="text-orgd1dd8b4">
+<div id="outline-container-orga07f47a" class="outline-2">
+<h2 id="orga07f47a">Course outline</h2>
+<div class="outline-text-2" id="text-orga07f47a">
 </div>
-<div id="outline-container-orgeacf124" class="outline-3">
-<h3 id="orgeacf124">👉 Topic 1: Algorithms (of course, sorting example)</h3>
-<div class="outline-text-3" id="text-orgeacf124">
+<div id="outline-container-orgeda105e" class="outline-3">
+<h3 id="orgeda105e">Topic 1: Algorithms (of course, sorting example)</h3>
+<div class="outline-text-3" id="text-orgeda105e">
 <ul class="org-ul">
 <li>What is an algorithm (vs. a computer program).</li>
 <li>Key properties: correctness, time, and space requirements (without details)</li>
@@ -283,9 +283,9 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-org2fc6e39" class="outline-3">
-<h3 id="org2fc6e39">Topic 2: How to measure runtime properly? Asymptotics.</h3>
-<div class="outline-text-3" id="text-org2fc6e39">
+<div id="outline-container-org56bb8eb" class="outline-3">
+<h3 id="org56bb8eb">Topic 2: How to measure runtime properly? Asymptotics.</h3>
+<div class="outline-text-3" id="text-org56bb8eb">
 <ul class="org-ul">
 <li>Merge sort</li>
 <li>Comparison of runtimes for different algorithms (random tests)</li>
@@ -303,9 +303,9 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-orga2e0205" class="outline-3">
-<h3 id="orga2e0205">Topic 3: Dynamic Programming and Needleman–Wunsch algo</h3>
-<div class="outline-text-3" id="text-orga2e0205">
+<div id="outline-container-orgfd95e5b" class="outline-3">
+<h3 id="orgfd95e5b">Topic 3: Dynamic Programming and Needleman–Wunsch algo</h3>
+<div class="outline-text-3" id="text-orgfd95e5b">
 <ul class="org-ul">
 <li>Coins/change problem (having N types of coins, how to make C cents?). Ideas:
 <ul class="org-ul">
@@ -322,14 +322,12 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-<div id="outline-container-orgc5c6854" class="outline-3">
-<h3 id="orgc5c6854">Topic 4: Data structures and conclusion</h3>
-<div class="outline-text-3" id="text-orgc5c6854">
+<div id="outline-container-orge3a1468" class="outline-3">
+<h3 id="orge3a1468">Topic 4: Data structures and conclusion</h3>
+<div class="outline-text-3" id="text-orge3a1468">
 <ul class="org-ul">
 <li>DS: abstract descriptions of data types (think: API+key parameters)</li>
 <li>Example: array vs. linked list and appending an element.</li>
-<li>A concept of amortized runtime</li>
-<li>further reading (useful books / courses)</li>
 </ul>
 
 <p>
@@ -339,10 +337,9 @@ This repository will be updated with the current materials as the course unfolds
 </div>
 </div>
 
-
-<div id="outline-container-orgbfa41a2" class="outline-2">
-<h2 id="orgbfa41a2">Further reading / learning</h2>
-<div class="outline-text-2" id="text-orgbfa41a2">
+<div id="outline-container-org44dc6aa" class="outline-2">
+<h2 id="org44dc6aa">Further reading / learning</h2>
+<div class="outline-text-2" id="text-org44dc6aa">
 <p>
 This is the most important part of the course 😃.
 </p>
@@ -352,9 +349,9 @@ First things first: maybe a university course in CS?
 </p>
 </div>
 
-<div id="outline-container-org608c146" class="outline-3">
-<h3 id="org608c146">🌐 Online reference</h3>
-<div class="outline-text-3" id="text-org608c146">
+<div id="outline-container-org405c31c" class="outline-3">
+<h3 id="org405c31c">🌐 Online reference</h3>
+<div class="outline-text-3" id="text-org405c31c">
 <ul class="org-ul">
 <li>GeeksForGeeks (e.g., <a href="https://www.geeksforgeeks.org/merge-sort/">merge sort</a>), Wikipedia, etc. are quite good, sometimes.</li>
 <li>Docs for specific libraries (e.g., see sorting in <a href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html">numpy docs</a>)</li>
@@ -362,9 +359,9 @@ First things first: maybe a university course in CS?
 </div>
 </div>
 
-<div id="outline-container-orgca0321f" class="outline-3">
-<h3 id="orgca0321f">📖 Books</h3>
-<div class="outline-text-3" id="text-orgca0321f">
+<div id="outline-container-orgbf7e5ec" class="outline-3">
+<h3 id="orgbf7e5ec">📖 Books</h3>
+<div class="outline-text-3" id="text-orgbf7e5ec">
 <p>
 There are some good "light" introductory textbooks:
 </p>
@@ -377,7 +374,7 @@ There are some more classic CS textbooks, which I would <b><b>not</b></b> recomm
 </p>
 
 <p>
-Finally, there is <b><b>the ultimate thing:</b></b> "The Art of Computer Programming", aka TAOCP. It is very dense and very "mathy" (and uses a hypothetical <a href="https://en.wikipedia.org/wiki/Assembly_language">assembly language</a>!), but covers <b>a lot</b>, as detailed as it gets. If you don't know how to solve some algorithmic problem, chances are TAOCP discusses it, comprises it as an exercise, or at the very least provides some inspiration. (Also, try googling "is TAOCP worth reading" or check an <a href="https://news.ycombinator.com/item?id=10897460">HN question</a> :) )
+Finally, there is <b><b>the ultimate thing:</b></b> "The Art of Computer Programming", aka TAOCP. It is very dense and very "mathy" (and uses a hypothetical <a href="https://en.wikipedia.org/wiki/Assembly_language">assembly language</a>!), but covers <b>a lot</b>, as detailed as it gets. If you don't know how to solve some algorithmic problem, chances are TAOCP discusses it, comprises it as an exercise, or at the very least provides some inspiration. (Also, try googling "is TAOCP worth reading" or check an <a href="https://news.ycombinator.com/item?id=10897460">HN question</a> :) ) Again: this is a very good book, but I do <b>not</b> recommend it as the first introduction.
 </p>
 
 <p>
@@ -389,9 +386,9 @@ Following up the discussion we had on global alignments, I've heard good things 
 </div>
 </div>
 
-<div id="outline-container-orgfcbce58" class="outline-3">
-<h3 id="orgfcbce58">🎓 Online courses and other resources</h3>
-<div class="outline-text-3" id="text-orgfcbce58">
+<div id="outline-container-orgfbabe52" class="outline-3">
+<h3 id="orgfbabe52">🎓 Online courses and other resources</h3>
+<div class="outline-text-3" id="text-orgfbabe52">
 <p>
 If you feel the need to practice, there are some good online courses out there. For example, Coursera:
 </p>
@@ -416,10 +413,20 @@ Finally, a couple of less relevant links, perhaps:
 </div>
 </div>
 </div>
+
+
+<div id="outline-container-org7a21561" class="outline-2">
+<h2 id="org7a21561">Acknowledgments</h2>
+<div class="outline-text-2" id="text-org7a21561">
+<p>
+Thanks to Dr. Brian Dean for a book recommendation and a wonderful example of effective teaching. I am also very grateful to the awesome students of the Russian and English tracks at <a href="https://molbioschool.org/en/">SMTB</a>-2021 for helping to shape the course (Good luck with your studies!), and to the organizers for making such a wonderful event happen. 
+</p>
+</div>
+</div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Alexey Bochkarev (www.bochkarev.io/contact)</p>
-<p class="date">Created: 2021-07-27 Tue 21:18</p>
+<p class="date">Created: 2021-07-31 Sat 12:13</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

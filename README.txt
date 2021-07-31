@@ -5,10 +5,9 @@
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-*Status:*
-• _Russian_ track is over (comments / questions / feedback are still
-  very welcome!)
-• _English_ track is starting 2021-07-28
+*Status:* both English and Russian tracks are over. Comments, questions,
+ suggestions, and any feedback are *very* welcome! Feel free to drop me
+ an email any time (Discord would also work during the School).
 
 
 [ ∑ ] Summary
@@ -49,21 +48,29 @@
    you will be OK using [Google Colab] (in which case you will need just
    a web browser and a free Google account).
 
-  This repository will be updated with the current materials as the
-  course unfolds, so come back to check it out! Tentative course outline
-  is as follows.
+  *A technical note.* Since people were asking: the slides were made
+   from [notebooks] with [RISE] extension (which produces
+   [Reveal.js]-based presentations).
+
+  Tentative course outline is as follows.
 
 
 [lecture] <https://github.com/alex-bochkarev/SMTB-Algo>
 
 [Google Colab] <https://colab.research.google.com>
 
+[notebooks] <https://jupyter.org/>
+
+[RISE] <https://rise.readthedocs.io/en/stable/>
+
+[Reveal.js] <https://revealjs.com/>
+
 
 Course outline
 ══════════════
 
-👉 Topic 1: Algorithms (of course, sorting example)
-───────────────────────────────────────────────────
+Topic 1: Algorithms (of course, sorting example)
+────────────────────────────────────────────────
 
   • What is an algorithm (vs. a computer program).
   • Key properties: correctness, time, and space requirements (without
@@ -129,8 +136,6 @@ Topic 4: Data structures and conclusion
 
   • DS: abstract descriptions of data types (think: API+key parameters)
   • Example: array vs. linked list and appending an element.
-  • A concept of amortized runtime
-  • further reading (useful books / courses)
 
   📔 *Notebook:* [(ipynb)] [(nbviewer)] [(colab)]
 
@@ -183,7 +188,8 @@ Further reading / learning
   it gets. If you don't know how to solve some algorithmic problem,
   chances are TAOCP discusses it, comprises it as an exercise, or at the
   very least provides some inspiration. (Also, try googling "is TAOCP
-  worth reading" or check an [HN question] :) )
+  worth reading" or check an [HN question] :) ) Again: this is a very
+  good book, but I do *not* recommend it as the first introduction.
 
   Following up the discussion we had on global alignments, I've heard
   good things about this book:
@@ -238,3 +244,16 @@ Further reading / learning
 [LeetCode] <https://leetcode.com/>
 
 [HackerRank] <https://www.hackerrank.com/>
+
+
+Acknowledgments
+═══════════════
+
+  Thanks to Dr. Brian Dean for a book recommendation and a wonderful
+  example of effective teaching. I am also very grateful to the awesome
+  students of the Russian and English tracks at [SMTB]-2021 for helping
+  to shape the course (Good luck with your studies!), and to the
+  organizers for making such a wonderful event happen.
+
+
+[SMTB] <https://molbioschool.org/en/>
