@@ -3,14 +3,14 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-07-31 Sat 12:13 -->
+<!-- 2022-07-13 Wed 11:19 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>SMTB-2021 course: A Glimpse into Algorithms</title>
-<meta name="generator" content="Org mode" />
+<title>SMTB-2022 course: A Glimpse into Algorithms</title>
 <meta name="author" content="Alexey Bochkarev (www.bochkarev.io/contact)" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -31,8 +31,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -41,21 +42,21 @@
   pre.src {
     position: relative;
     overflow: auto;
-    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
   pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -191,47 +192,28 @@
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
   .org-svg { width: 90%; }
-  /*]]>*/-->
 </style>
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
 </head>
 <body>
-<div id="content">
-<h1 class="title">SMTB-2021 course: A Glimpse into Algorithms</h1>
+<div id="content" class="content">
+<h1 class="title">SMTB-2022 course: A Glimpse into Algorithms</h1>
 <p>
-<b>Status:</b> both English and Russian tracks are over. Comments, questions, suggestions, and any feedback are <b>very</b> welcome! Feel free to drop me an email any time (Discord would also work during the School).
+<b>Status:</b> a new season is starting &#x2014; SMTB-2022 / course schedule 2 is here!
 </p>
 
-<div id="outline-container-org5ecd614" class="outline-2">
-<h2 id="org5ecd614">[ ∑ ] Summary</h2>
-<div class="outline-text-2" id="text-org5ecd614">
+<p>
+Comments, questions, suggestions, and any feedback are <b>very</b> welcome! Feel free to drop me an email any time (Discord would also work during the School).
+</p>
+
+<div id="outline-container-orgf3000c3" class="outline-2">
+<h2 id="orgf3000c3">[ ∑ ] Summary</h2>
+<div class="outline-text-2" id="text-orgf3000c3">
 <p>
 <b>Course point:</b> To discuss some very basic theoretical concepts from Computer Science, heavily relying on numerical illustrations in Python. We will discuss what does it mean if someone says the problem is "hard" ("NP-hard"? What's the difference?), what are algorithms, data structures, and what kind of their properties we might be interested in. E.g., whether an algorithm is doing the right thing (and how to check it), how fast it runs (how to measure it and "what is this O(·) I keep seeing in the papers, exactly?"), and so on. Finally: how useful it all is for you if you are not a computer scientist, and only write the code from time to time, or even mostly using existing programs? (A spoiler: might be very useful!) However, we will <b>not</b> be learning to write computer programs technically. The main purpose is to find a sweet spot between theory and practice to equip the interested student with key ideas relevant to a practice of (thoughtful) programming, and, perhaps, inspire to take a university course in CS. 
 </p>
 
 <p>
-(This course is based on my two-hour <a href="https://github.com/alex-bochkarev/SMTB-Algo">lecture</a> for SMTB-2020.)
+(This course is based on my two-hour <a href="https://github.com/alex-bochkarev/SMTB-Algo">lecture</a> for SMTB-2020. Previous edition was run for SMTB-2021.)
 </p>
 
 <p>
@@ -256,13 +238,13 @@ Tentative course outline is as follows.
 </div>
 </div>
 
-<div id="outline-container-orga07f47a" class="outline-2">
-<h2 id="orga07f47a">Course outline</h2>
-<div class="outline-text-2" id="text-orga07f47a">
+<div id="outline-container-org733330d" class="outline-2">
+<h2 id="org733330d">Course outline</h2>
+<div class="outline-text-2" id="text-org733330d">
 </div>
-<div id="outline-container-orgeda105e" class="outline-3">
-<h3 id="orgeda105e">Topic 1: Algorithms (of course, sorting example)</h3>
-<div class="outline-text-3" id="text-orgeda105e">
+<div id="outline-container-org826d340" class="outline-3">
+<h3 id="org826d340">Topic 1: Algorithms (of course, sorting example)</h3>
+<div class="outline-text-3" id="text-org826d340">
 <ul class="org-ul">
 <li>What is an algorithm (vs. a computer program).</li>
 <li>Key properties: correctness, time, and space requirements (without details)</li>
@@ -283,9 +265,9 @@ Tentative course outline is as follows.
 </div>
 </div>
 
-<div id="outline-container-org56bb8eb" class="outline-3">
-<h3 id="org56bb8eb">Topic 2: How to measure runtime properly? Asymptotics.</h3>
-<div class="outline-text-3" id="text-org56bb8eb">
+<div id="outline-container-orgcb89a4a" class="outline-3">
+<h3 id="orgcb89a4a">Topic 2: How to measure runtime properly? Asymptotics.</h3>
+<div class="outline-text-3" id="text-orgcb89a4a">
 <ul class="org-ul">
 <li>Merge sort</li>
 <li>Comparison of runtimes for different algorithms (random tests)</li>
@@ -303,9 +285,9 @@ Tentative course outline is as follows.
 </div>
 </div>
 
-<div id="outline-container-orgfd95e5b" class="outline-3">
-<h3 id="orgfd95e5b">Topic 3: Dynamic Programming and Needleman–Wunsch algo</h3>
-<div class="outline-text-3" id="text-orgfd95e5b">
+<div id="outline-container-org1830168" class="outline-3">
+<h3 id="org1830168">Topic 3: Dynamic Programming and Needleman–Wunsch algo</h3>
+<div class="outline-text-3" id="text-org1830168">
 <ul class="org-ul">
 <li>Coins/change problem (having N types of coins, how to make C cents?). Ideas:
 <ul class="org-ul">
@@ -322,9 +304,9 @@ Tentative course outline is as follows.
 </div>
 </div>
 
-<div id="outline-container-orge3a1468" class="outline-3">
-<h3 id="orge3a1468">Topic 4: Data structures and conclusion</h3>
-<div class="outline-text-3" id="text-orge3a1468">
+<div id="outline-container-orge1854d9" class="outline-3">
+<h3 id="orge1854d9">Topic 4: Data structures and conclusion</h3>
+<div class="outline-text-3" id="text-orge1854d9">
 <ul class="org-ul">
 <li>DS: abstract descriptions of data types (think: API+key parameters)</li>
 <li>Example: array vs. linked list and appending an element.</li>
@@ -337,9 +319,9 @@ Tentative course outline is as follows.
 </div>
 </div>
 
-<div id="outline-container-org44dc6aa" class="outline-2">
-<h2 id="org44dc6aa">Further reading / learning</h2>
-<div class="outline-text-2" id="text-org44dc6aa">
+<div id="outline-container-org4448fa9" class="outline-2">
+<h2 id="org4448fa9">Further reading / learning</h2>
+<div class="outline-text-2" id="text-org4448fa9">
 <p>
 This is the most important part of the course 😃.
 </p>
@@ -349,9 +331,9 @@ First things first: maybe a university course in CS?
 </p>
 </div>
 
-<div id="outline-container-org405c31c" class="outline-3">
-<h3 id="org405c31c">🌐 Online reference</h3>
-<div class="outline-text-3" id="text-org405c31c">
+<div id="outline-container-org4bb4d80" class="outline-3">
+<h3 id="org4bb4d80">🌐 Online reference</h3>
+<div class="outline-text-3" id="text-org4bb4d80">
 <ul class="org-ul">
 <li>GeeksForGeeks (e.g., <a href="https://www.geeksforgeeks.org/merge-sort/">merge sort</a>), Wikipedia, etc. are quite good, sometimes.</li>
 <li>Docs for specific libraries (e.g., see sorting in <a href="https://numpy.org/doc/stable/reference/generated/numpy.sort.html">numpy docs</a>)</li>
@@ -359,9 +341,9 @@ First things first: maybe a university course in CS?
 </div>
 </div>
 
-<div id="outline-container-orgbf7e5ec" class="outline-3">
-<h3 id="orgbf7e5ec">📖 Books</h3>
-<div class="outline-text-3" id="text-orgbf7e5ec">
+<div id="outline-container-orgc0a6345" class="outline-3">
+<h3 id="orgc0a6345">📖 Books</h3>
+<div class="outline-text-3" id="text-orgc0a6345">
 <p>
 There are some good "light" introductory textbooks:
 </p>
@@ -386,9 +368,9 @@ Following up the discussion we had on global alignments, I've heard good things 
 </div>
 </div>
 
-<div id="outline-container-orgfbabe52" class="outline-3">
-<h3 id="orgfbabe52">🎓 Online courses and other resources</h3>
-<div class="outline-text-3" id="text-orgfbabe52">
+<div id="outline-container-org736888a" class="outline-3">
+<h3 id="org736888a">🎓 Online courses and other resources</h3>
+<div class="outline-text-3" id="text-org736888a">
 <p>
 If you feel the need to practice, there are some good online courses out there. For example, Coursera:
 </p>
@@ -415,9 +397,9 @@ Finally, a couple of less relevant links, perhaps:
 </div>
 
 
-<div id="outline-container-org7a21561" class="outline-2">
-<h2 id="org7a21561">Acknowledgments</h2>
-<div class="outline-text-2" id="text-org7a21561">
+<div id="outline-container-orgb96ab26" class="outline-2">
+<h2 id="orgb96ab26">Acknowledgments</h2>
+<div class="outline-text-2" id="text-orgb96ab26">
 <p>
 Thanks to Dr. Brian Dean for a book recommendation and a wonderful example of effective teaching. I am also very grateful to the awesome students of the Russian and English tracks at <a href="https://molbioschool.org/en/">SMTB</a>-2021 for helping to shape the course (Good luck with your studies!), and to the organizers for making such a wonderful event happen. 
 </p>
@@ -426,7 +408,7 @@ Thanks to Dr. Brian Dean for a book recommendation and a wonderful example of ef
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Alexey Bochkarev (www.bochkarev.io/contact)</p>
-<p class="date">Created: 2021-07-31 Sat 12:13</p>
+<p class="date">Created: 2022-07-13 Wed 11:19</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

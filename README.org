@@ -1,13 +1,15 @@
-#+TITLE: SMTB-2021 course: A Glimpse into Algorithms
+#+TITLE: SMTB-2022 course: A Glimpse into Algorithms
 #+AUTHOR: Alexey Bochkarev (www.bochkarev.io/contact)
 #+OPTIONS: toc:nil num:nil
 
-*Status:* both English and Russian tracks are over. Comments, questions, suggestions, and any feedback are *very* welcome! Feel free to drop me an email any time (Discord would also work during the School).
+*Status:* a new season is starting --- SMTB-2022 / course schedule 2 is here!
+
+Comments, questions, suggestions, and any feedback are *very* welcome! Feel free to drop me an email any time (Discord would also work during the School).
 
 * [ ∑ ] Summary
      *Course point:* To discuss some very basic theoretical concepts from Computer Science, heavily relying on numerical illustrations in Python. We will discuss what does it mean if someone says the problem is "hard" ("NP-hard"? What's the difference?), what are algorithms, data structures, and what kind of their properties we might be interested in. E.g., whether an algorithm is doing the right thing (and how to check it), how fast it runs (how to measure it and "what is this O(·) I keep seeing in the papers, exactly?"), and so on. Finally: how useful it all is for you if you are not a computer scientist, and only write the code from time to time, or even mostly using existing programs? (A spoiler: might be very useful!) However, we will *not* be learning to write computer programs technically. The main purpose is to find a sweet spot between theory and practice to equip the interested student with key ideas relevant to a practice of (thoughtful) programming, and, perhaps, inspire to take a university course in CS. 
 
-(This course is based on my two-hour [[https://github.com/alex-bochkarev/SMTB-Algo][lecture]] for SMTB-2020.)
+(This course is based on my two-hour [[https://github.com/alex-bochkarev/SMTB-Algo][lecture]] for SMTB-2020. Previous edition was run for SMTB-2021.)
 
      *Timeframe:* Four classes, 50 minutes each. No mandatory home assignments.
 

@@ -1,13 +1,16 @@
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-              SMTB-2021 COURSE: A GLIMPSE INTO ALGORITHMS
+              SMTB-2022 COURSE: A GLIMPSE INTO ALGORITHMS
 
               Alexey Bochkarev (www.bochkarev.io/contact)
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-*Status:* both English and Russian tracks are over. Comments, questions,
- suggestions, and any feedback are *very* welcome! Feel free to drop me
- an email any time (Discord would also work during the School).
+*Status:* a new season is starting — SMTB-2022 / course schedule 2 is
+ here!
+
+Comments, questions, suggestions, and any feedback are *very* welcome!
+Feel free to drop me an email any time (Discord would also work during
+the School).
 
 
 [ ∑ ] Summary
@@ -30,7 +33,8 @@
    (thoughtful) programming, and, perhaps, inspire to take a university
    course in CS.
 
-  (This course is based on my two-hour [lecture] for SMTB-2020.)
+  (This course is based on my two-hour [lecture] for SMTB-2020. Previous
+  edition was run for SMTB-2021.)
 
   *Timeframe:* Four classes, 50 minutes each. No mandatory home
    assignments.
