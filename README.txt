@@ -5,8 +5,7 @@
              ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 
-*Status:* a new season is starting — SMTB-2022 / course schedule 2 is
- here!
+*Status:* SMTB-2022 edition is over.
 
 Comments, questions, suggestions, and any feedback are *very* welcome!
 Feel free to drop me an email any time (Discord would also work during
